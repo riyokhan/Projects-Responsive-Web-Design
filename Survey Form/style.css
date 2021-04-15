@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+  font-family: 'Saira Condensed', sans-serif;
+    color: #f3f3f3;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-image: linear-gradient( 
+115deg
+, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    line-height: 1.2;
+}
+h1, p{
+    margin-bottom: 8px;
+}
+
+.container{
+    margin: 50px;
+    width: 60%;    
+}
+
+#title{
+    text-align: center;
+}
+
+#description{
+    text-align: center;
+    font-style: italic;
+}
+
+#survey-form{
+    background-color: rgba(27, 27, 50, 0.8);;
+    padding: 40px;
+    border-radius: 4px;
+    
+}
+
+.form-group{
+    margin: 0px 0px 20px;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+#name, #email, #number, #dropdown, #suggestions{
+    width: 100%;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+#recommend, #improve {
+  display: inline-block;
+  margin-right: 5px;
+  min-height: 15px;
+  min-width: 15px;
+}
+
+#suggestions {
+    min-height: 120px;
+    resize: vertical;
+    padding: 10px;
+    width: 100%;
+  }
+
+.small{
+    font-size: small;
+}
+
+button{
+    background: #37af65;
+    color: #f3f3f3;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+}
