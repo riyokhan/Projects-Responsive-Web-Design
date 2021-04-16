@@ -18,7 +18,6 @@
 
 body{
     font-family: 'Manrope', sans-serif;
-    width: 100%;
     min-width: 429px;
 }
 
@@ -50,6 +49,12 @@ a{
 }
 #navbar ul a:hover{
     color: var(--lightpink);
+}
+
+.container{
+    position: absolute;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 #welcome-section{
@@ -126,7 +131,6 @@ a{
 #contact{
     text-align: center;
     height: 40vh;
-    width: 100%;
     padding: 3rem 1rem;
     background-color: var(--contact);
     color: var(--lightpink);
